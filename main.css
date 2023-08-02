@@ -207,10 +207,18 @@ body {
   }
 }
 @media (max-width: 250px) {
+  .box {
+    padding-top: 100px;
+  }
   .box-mini .right .title {
     font-size: 12px;
   }
   .box-mini .right .tag {
     font-size: 8px;
+  }
+}
+@media (max-width: 225px) {
+  .box {
+    padding-top: 160px;
   }
 }/*# sourceMappingURL=main.css.map */

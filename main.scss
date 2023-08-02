@@ -224,6 +224,9 @@ $cl3: #8487a2;
     }
 }
 @media(max-width:250px){
+    .box {
+        padding-top: 100px;
+    }
     .box-mini {
         .right {
             .title {
@@ -233,6 +236,11 @@ $cl3: #8487a2;
                 font-size: 8px;
             }
         }
+    }
+}
+@media(max-width:225px){
+    .box {
+        padding-top: 160px;
     }
 }
 // Media
